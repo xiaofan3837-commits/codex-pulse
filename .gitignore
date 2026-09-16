@@ -1,0 +1,30 @@
+# macOS
+.DS_Store
+._*
+
+# Generated application and build caches
+*.app/
+*.dSYM/
+.build/
+build/
+DerivedData/
+*.xcuserstate
+
+# Python test caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+
+# Local credentials and task data
+.env
+.env.*
+!.env.example
+.codex/
+*.sqlite
+*.sqlite-*
+*.log
+
+# Local scratch files
+work/
+tmp/
